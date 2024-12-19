@@ -1,3 +1,3 @@
-/Users/vladimirmarkov/Gkomp/build/CMakeFiles/lab6.dir
-/Users/vladimirmarkov/Gkomp/build/CMakeFiles/edit_cache.dir
-/Users/vladimirmarkov/Gkomp/build/CMakeFiles/rebuild_cache.dir
+/Users/vladimirmarkov/kg/kommpgr/build/CMakeFiles/GameEngine.dir
+/Users/vladimirmarkov/kg/kommpgr/build/CMakeFiles/edit_cache.dir
+/Users/vladimirmarkov/kg/kommpgr/build/CMakeFiles/rebuild_cache.dir

@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vladimirmarkov/Gkomp
+CMAKE_SOURCE_DIR = /Users/vladimirmarkov/kg/kommpgr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vladimirmarkov/Gkomp/build
+CMAKE_BINARY_DIR = /Users/vladimirmarkov/kg/kommpgr/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/Gkomp/build/CMakeFiles /Users/vladimirmarkov/Gkomp/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg/kommpgr/build/CMakeFiles /Users/vladimirmarkov/kg/kommpgr/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/Gkomp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg/kommpgr/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,281 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab6
+# Target rules for targets named GameEngine
 
 # Build rule for target.
-lab6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab6
-.PHONY : lab6
+GameEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GameEngine
+.PHONY : GameEngine
 
 # fast build rule for target.
-lab6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/build
-.PHONY : lab6/fast
+GameEngine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/build
+.PHONY : GameEngine/fast
 
-lab6_v2.o: lab6_v2.cpp.o
-.PHONY : lab6_v2.o
+src/Core/Engine.o: src/Core/Engine.cpp.o
+.PHONY : src/Core/Engine.o
 
 # target to build an object file
-lab6_v2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/lab6_v2.cpp.o
-.PHONY : lab6_v2.cpp.o
+src/Core/Engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Engine.cpp.o
+.PHONY : src/Core/Engine.cpp.o
 
-lab6_v2.i: lab6_v2.cpp.i
-.PHONY : lab6_v2.i
+src/Core/Engine.i: src/Core/Engine.cpp.i
+.PHONY : src/Core/Engine.i
 
 # target to preprocess a source file
-lab6_v2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/lab6_v2.cpp.i
-.PHONY : lab6_v2.cpp.i
+src/Core/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Engine.cpp.i
+.PHONY : src/Core/Engine.cpp.i
 
-lab6_v2.s: lab6_v2.cpp.s
-.PHONY : lab6_v2.s
+src/Core/Engine.s: src/Core/Engine.cpp.s
+.PHONY : src/Core/Engine.s
 
 # target to generate assembly for a file
-lab6_v2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab6.dir/build.make CMakeFiles/lab6.dir/lab6_v2.cpp.s
-.PHONY : lab6_v2.cpp.s
+src/Core/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Engine.cpp.s
+.PHONY : src/Core/Engine.cpp.s
+
+src/Core/GameObject.o: src/Core/GameObject.cpp.o
+.PHONY : src/Core/GameObject.o
+
+# target to build an object file
+src/Core/GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/GameObject.cpp.o
+.PHONY : src/Core/GameObject.cpp.o
+
+src/Core/GameObject.i: src/Core/GameObject.cpp.i
+.PHONY : src/Core/GameObject.i
+
+# target to preprocess a source file
+src/Core/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/GameObject.cpp.i
+.PHONY : src/Core/GameObject.cpp.i
+
+src/Core/GameObject.s: src/Core/GameObject.cpp.s
+.PHONY : src/Core/GameObject.s
+
+# target to generate assembly for a file
+src/Core/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/GameObject.cpp.s
+.PHONY : src/Core/GameObject.cpp.s
+
+src/Core/Level.o: src/Core/Level.cpp.o
+.PHONY : src/Core/Level.o
+
+# target to build an object file
+src/Core/Level.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Level.cpp.o
+.PHONY : src/Core/Level.cpp.o
+
+src/Core/Level.i: src/Core/Level.cpp.i
+.PHONY : src/Core/Level.i
+
+# target to preprocess a source file
+src/Core/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Level.cpp.i
+.PHONY : src/Core/Level.cpp.i
+
+src/Core/Level.s: src/Core/Level.cpp.s
+.PHONY : src/Core/Level.s
+
+# target to generate assembly for a file
+src/Core/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Level.cpp.s
+.PHONY : src/Core/Level.cpp.s
+
+src/Core/Scene.o: src/Core/Scene.cpp.o
+.PHONY : src/Core/Scene.o
+
+# target to build an object file
+src/Core/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Scene.cpp.o
+.PHONY : src/Core/Scene.cpp.o
+
+src/Core/Scene.i: src/Core/Scene.cpp.i
+.PHONY : src/Core/Scene.i
+
+# target to preprocess a source file
+src/Core/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Scene.cpp.i
+.PHONY : src/Core/Scene.cpp.i
+
+src/Core/Scene.s: src/Core/Scene.cpp.s
+.PHONY : src/Core/Scene.s
+
+# target to generate assembly for a file
+src/Core/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Core/Scene.cpp.s
+.PHONY : src/Core/Scene.cpp.s
+
+src/Physics/PhysicsEngine.o: src/Physics/PhysicsEngine.cpp.o
+.PHONY : src/Physics/PhysicsEngine.o
+
+# target to build an object file
+src/Physics/PhysicsEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Physics/PhysicsEngine.cpp.o
+.PHONY : src/Physics/PhysicsEngine.cpp.o
+
+src/Physics/PhysicsEngine.i: src/Physics/PhysicsEngine.cpp.i
+.PHONY : src/Physics/PhysicsEngine.i
+
+# target to preprocess a source file
+src/Physics/PhysicsEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Physics/PhysicsEngine.cpp.i
+.PHONY : src/Physics/PhysicsEngine.cpp.i
+
+src/Physics/PhysicsEngine.s: src/Physics/PhysicsEngine.cpp.s
+.PHONY : src/Physics/PhysicsEngine.s
+
+# target to generate assembly for a file
+src/Physics/PhysicsEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Physics/PhysicsEngine.cpp.s
+.PHONY : src/Physics/PhysicsEngine.cpp.s
+
+src/Rendering/Camera.o: src/Rendering/Camera.cpp.o
+.PHONY : src/Rendering/Camera.o
+
+# target to build an object file
+src/Rendering/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Camera.cpp.o
+.PHONY : src/Rendering/Camera.cpp.o
+
+src/Rendering/Camera.i: src/Rendering/Camera.cpp.i
+.PHONY : src/Rendering/Camera.i
+
+# target to preprocess a source file
+src/Rendering/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Camera.cpp.i
+.PHONY : src/Rendering/Camera.cpp.i
+
+src/Rendering/Camera.s: src/Rendering/Camera.cpp.s
+.PHONY : src/Rendering/Camera.s
+
+# target to generate assembly for a file
+src/Rendering/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Camera.cpp.s
+.PHONY : src/Rendering/Camera.cpp.s
+
+src/Rendering/Light.o: src/Rendering/Light.cpp.o
+.PHONY : src/Rendering/Light.o
+
+# target to build an object file
+src/Rendering/Light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Light.cpp.o
+.PHONY : src/Rendering/Light.cpp.o
+
+src/Rendering/Light.i: src/Rendering/Light.cpp.i
+.PHONY : src/Rendering/Light.i
+
+# target to preprocess a source file
+src/Rendering/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Light.cpp.i
+.PHONY : src/Rendering/Light.cpp.i
+
+src/Rendering/Light.s: src/Rendering/Light.cpp.s
+.PHONY : src/Rendering/Light.s
+
+# target to generate assembly for a file
+src/Rendering/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Light.cpp.s
+.PHONY : src/Rendering/Light.cpp.s
+
+src/Rendering/Renderer.o: src/Rendering/Renderer.cpp.o
+.PHONY : src/Rendering/Renderer.o
+
+# target to build an object file
+src/Rendering/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Renderer.cpp.o
+.PHONY : src/Rendering/Renderer.cpp.o
+
+src/Rendering/Renderer.i: src/Rendering/Renderer.cpp.i
+.PHONY : src/Rendering/Renderer.i
+
+# target to preprocess a source file
+src/Rendering/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Renderer.cpp.i
+.PHONY : src/Rendering/Renderer.cpp.i
+
+src/Rendering/Renderer.s: src/Rendering/Renderer.cpp.s
+.PHONY : src/Rendering/Renderer.s
+
+# target to generate assembly for a file
+src/Rendering/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Renderer.cpp.s
+.PHONY : src/Rendering/Renderer.cpp.s
+
+src/Rendering/Shader.o: src/Rendering/Shader.cpp.o
+.PHONY : src/Rendering/Shader.o
+
+# target to build an object file
+src/Rendering/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Shader.cpp.o
+.PHONY : src/Rendering/Shader.cpp.o
+
+src/Rendering/Shader.i: src/Rendering/Shader.cpp.i
+.PHONY : src/Rendering/Shader.i
+
+# target to preprocess a source file
+src/Rendering/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Shader.cpp.i
+.PHONY : src/Rendering/Shader.cpp.i
+
+src/Rendering/Shader.s: src/Rendering/Shader.cpp.s
+.PHONY : src/Rendering/Shader.s
+
+# target to generate assembly for a file
+src/Rendering/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Rendering/Shader.cpp.s
+.PHONY : src/Rendering/Shader.cpp.s
+
+src/Utils/OBJLoader.o: src/Utils/OBJLoader.cpp.o
+.PHONY : src/Utils/OBJLoader.o
+
+# target to build an object file
+src/Utils/OBJLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Utils/OBJLoader.cpp.o
+.PHONY : src/Utils/OBJLoader.cpp.o
+
+src/Utils/OBJLoader.i: src/Utils/OBJLoader.cpp.i
+.PHONY : src/Utils/OBJLoader.i
+
+# target to preprocess a source file
+src/Utils/OBJLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Utils/OBJLoader.cpp.i
+.PHONY : src/Utils/OBJLoader.cpp.i
+
+src/Utils/OBJLoader.s: src/Utils/OBJLoader.cpp.s
+.PHONY : src/Utils/OBJLoader.s
+
+# target to generate assembly for a file
+src/Utils/OBJLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/Utils/OBJLoader.cpp.s
+.PHONY : src/Utils/OBJLoader.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +401,40 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lab6"
-	@echo "... lab6_v2.o"
-	@echo "... lab6_v2.i"
-	@echo "... lab6_v2.s"
+	@echo "... GameEngine"
+	@echo "... src/Core/Engine.o"
+	@echo "... src/Core/Engine.i"
+	@echo "... src/Core/Engine.s"
+	@echo "... src/Core/GameObject.o"
+	@echo "... src/Core/GameObject.i"
+	@echo "... src/Core/GameObject.s"
+	@echo "... src/Core/Level.o"
+	@echo "... src/Core/Level.i"
+	@echo "... src/Core/Level.s"
+	@echo "... src/Core/Scene.o"
+	@echo "... src/Core/Scene.i"
+	@echo "... src/Core/Scene.s"
+	@echo "... src/Physics/PhysicsEngine.o"
+	@echo "... src/Physics/PhysicsEngine.i"
+	@echo "... src/Physics/PhysicsEngine.s"
+	@echo "... src/Rendering/Camera.o"
+	@echo "... src/Rendering/Camera.i"
+	@echo "... src/Rendering/Camera.s"
+	@echo "... src/Rendering/Light.o"
+	@echo "... src/Rendering/Light.i"
+	@echo "... src/Rendering/Light.s"
+	@echo "... src/Rendering/Renderer.o"
+	@echo "... src/Rendering/Renderer.i"
+	@echo "... src/Rendering/Renderer.s"
+	@echo "... src/Rendering/Shader.o"
+	@echo "... src/Rendering/Shader.i"
+	@echo "... src/Rendering/Shader.s"
+	@echo "... src/Utils/OBJLoader.o"
+	@echo "... src/Utils/OBJLoader.i"
+	@echo "... src/Utils/OBJLoader.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Core/Engine.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Core/Engine.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Core/Engine.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Core/Engine.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Core/Scene.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Core/Scene.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Core/Scene.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Core/Scene.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Core/GameObject.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Core/GameObject.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Core/GameObject.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Core/GameObject.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Core/Level.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Core/Level.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Core/Level.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Core/Level.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Rendering/Renderer.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Rendering/Renderer.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Rendering/Renderer.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Rendering/Renderer.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Rendering/Camera.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Rendering/Camera.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Rendering/Camera.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Rendering/Camera.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Rendering/Light.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Rendering/Light.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Rendering/Light.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Rendering/Light.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Rendering/Shader.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Rendering/Shader.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Rendering/Shader.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Rendering/Shader.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Physics/PhysicsEngine.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Physics/PhysicsEngine.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Physics/PhysicsEngine.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Physics/PhysicsEngine.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/Utils/OBJLoader.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/Utils/OBJLoader.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/Utils/OBJLoader.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/Utils/OBJLoader.cpp.o"
+},
+{
+  "directory": "/Users/vladimirmarkov/kg/kommpgr/build",
+  "command": "/usr/bin/clang++  -I/Users/vladimirmarkov/kg/kommpgr/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/GameEngine.dir/src/main.cpp.o -c /Users/vladimirmarkov/kg/kommpgr/src/main.cpp",
+  "file": "/Users/vladimirmarkov/kg/kommpgr/src/main.cpp",
+  "output": "CMakeFiles/GameEngine.dir/src/main.cpp.o"
+}
+]
